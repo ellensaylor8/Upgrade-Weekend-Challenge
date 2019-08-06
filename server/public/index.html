@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="scripts/style.css">
+    <script src="scripts/jQuery.js"></script>
+    <script src="scripts/client.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1 class="standardText">Salary Calculator</h1>
+    </div>
+    <h3 class="standardText">Add Employee</h3>
+    <div>
+        
+        <input type="text" class = "js-input-firstName col-sm-2" placeholder="First Name">
+        <input type="text" class = "js-input-lastName col-sm-2" placeholder="Last Name">
+        <input type="text" class = "js-input-ID col-sm-2" placeholder="ID">
+        <input type="text" class = "js-input-title col-sm-2" placeholder="Title">
+        <input type="text" class = "js-input-annualSalary col-sm-2" placeholder="Annual Salary">
+        <button class="js-btn-submit">Submit</button>
+    </div>
+    <div>
+        <h3 class="standardText">Employees</h3>
+        <table>
+            <thead>
+                <th class="standardText">First Name</th>
+                <th class="standardText">Last Name</th>
+                <th class="standardText">ID</th>
+                <th class="standardText">Title</th>
+                <th class="standardText">Annual Salary</th>
+                <th></th>
+            </thead>
+            <tbody class = "tBody">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div>
+        <h3 class = "standardText" id= "totalMonthlyCost" style = "text-align: right">Total Monthly Cost: </h3>
+    </div>
+</body>
+
+</html>
